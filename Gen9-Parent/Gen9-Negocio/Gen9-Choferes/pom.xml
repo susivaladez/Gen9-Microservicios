@@ -10,8 +10,7 @@
 	<groupId>com.valadez.negocio</groupId>
 	<artifactId>Gen9-Negocio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Gen9-Choferes</name>
+	<name>Gen9-Negocio</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
@@ -43,6 +42,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.6.0</version>
+   </dependency>
+   
 	</dependencies>
 
 	<build>

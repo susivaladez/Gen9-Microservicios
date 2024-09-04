@@ -13,7 +13,9 @@
 	<name>Gen9-Negocio</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
-	<modules>Gen9-Choferes</modules>
+	<modules>
+		<module>Gen9-Choferes</module>
+	</modules>
 	<properties>
 		
 	</properties>
@@ -21,6 +23,5 @@
 		
 	</dependencies>
 
-	
 
 </project>
