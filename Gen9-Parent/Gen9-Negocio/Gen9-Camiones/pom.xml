@@ -19,7 +19,7 @@
 		<url/>
 	</scm>
 	<properties>
-		
+		<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 	</properties>
 	<dependencies>
 		

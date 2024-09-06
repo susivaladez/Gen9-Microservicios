@@ -7,23 +7,37 @@
 		<artifactId>Gen9-Parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.valadez.infraestructura</groupId>
-	<artifactId>Gen9-Infraestructura</artifactId>
+	<groupId>com.valadez.eurekaserver</groupId>
+	<artifactId>Gen9-EurekaServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Gen9-Infraestructura</name>
+	<name>Gen9-EurekaServer</name>
 	<description>Demo project for Spring Boot</description>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>Gen9-EurekaServer</module>
-	</modules>
+	
 	<properties>
 		
+		<spring-cloud.version>2023.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+
 		
 	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			
+		</dependencies>
+	</dependencyManagement>
 
-	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
